@@ -21,6 +21,18 @@
     "excludeExternals": true,
     "includeVersion": true,
     "out": "docs",
-    "theme": "default"
+    "theme": "default",
+    "validation": {
+      "notExported": false,
+      "notDocumented": true
+    },
+    "requiredToBeDocumented": [
+      "Enum",
+      "Function",
+      "Class",
+      "Interface",
+      "Method"
+    ],
+    "treatValidationWarningsAsErrors": true,
   }
 }
