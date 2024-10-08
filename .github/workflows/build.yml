@@ -46,6 +46,8 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install
+      - name: Build
+        run: pnpm build
       - name: TypeDoc validation
         run: pnpm doc:validate
   build:
